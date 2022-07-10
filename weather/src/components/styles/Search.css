@@ -1,0 +1,33 @@
+.Search {
+    display: flex;
+  }
+  
+  .input {
+    width: 800px;
+    margin: 10px 200px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    -webkit-box-shadow: 0 0 10px lightgrey;
+    box-shadow: 0 0 10px lightgrey;
+    border: none;
+    cursor: pointer;
+    padding-left: 37px;
+    font-weight: bold;
+    outline: none;
+  }
+  
+  .location {
+    width: 30px;
+    position: absolute;
+    top: 25px;
+    padding-left: 200px;
+  }
+  
+  .search_btn {
+    width: 20px;
+    position: absolute;
+    top: 30px;
+    margin-left: -240px;
+  }
