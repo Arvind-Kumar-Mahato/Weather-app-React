@@ -1,0 +1,48 @@
+.Forecast_title {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+  }
+  
+  .Forecast_icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .Forecst_MainDiv{
+    padding: 5px 10px;
+  }
+  .Forecst_MainDiv:hover{
+    border: 3px solid rgb(0, 238, 255);
+    border-radius: 5px;
+  }
+  
+  .Forecast_temp {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .temp_max {
+    margin-right: 0.2rem;
+    color: #00bfff;
+  }
+  
+  .temp_min {
+    margin-left: 0.2rem;
+  }
+  
+  
+  @keyframes icons {
+    0% {
+      position: relative;
+      top: 0;
+    }
+    50% {
+      position: relative;
+      top: 0.25rem;
+    }
+    100% {
+      position: relative;
+      top: 0;
+    }
+  }

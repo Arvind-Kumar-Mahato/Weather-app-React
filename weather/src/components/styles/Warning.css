@@ -1,0 +1,13 @@
+.Warning {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+  }
+  
+  .Warning > * {
+    padding: 0.15rem 0;
+  }
+  
+  .Warning img{
+    width: 10%;
+  }

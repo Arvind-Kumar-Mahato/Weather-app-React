@@ -1,0 +1,25 @@
+.WeatherAndForecast {
+    display: flex;
+    flex-direction: column;
+    color: #f2f2f2;
+  }
+  
+  .ForecastContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    color: black;
+  }
+  
+  /* @media (max-width: 375px) {
+    .WeatherAndForecast {
+      padding: 2rem;
+    }
+  } */
+  
+  .DetailsAndGrafh{
+    margin-top: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 7px;
+  }
+  

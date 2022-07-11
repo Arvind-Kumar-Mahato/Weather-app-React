@@ -1,0 +1,53 @@
+.Weather {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: black;
+    margin-top: 40px;
+  }
+  
+  .WeatherInfo {
+    text-align: left;
+    display: flex;
+  }
+  
+  
+  .WeatherIcon {
+    width: 100px;
+    height: 100px;
+    animation-name: sun;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes sun {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .WeatherList {
+    font-size: 0.85rem;
+    list-style: none;
+    margin-left: 0.75rem;
+  }
+  
+  .listTemp {
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    transition: scale 0.3s, padding-left 0.3s;
+  }
+  
+  .listTemperatureSymbol {
+    font-weight: 500;
+    font-size: 5rem;
+    margin-top: 20px;
+  }
+  
+  .Weather {
+    padding: 0 0 1.5rem 0;
+  }
+  
